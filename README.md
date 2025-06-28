@@ -8,7 +8,7 @@
   <!--<a href="https://github.com/Catalyst-Studios/catalystguides/pulls">
     <img src="https://img.shields.io/github/issues-pr/Catalyst-Studios/Little-Bit-Large.svg">
   </a>-->
-  <a href="https://github.com/Catalyst-Studios/Catalyst-Catalyst-Core/issues">
+  <a href="https://github.com/Catalyst-Studios/Catalyst-Create-Core/issues>
     <img src="https://img.shields.io/github/issues/Catalyst-Studios/Create_Pack.svg">
   </a>
 </br>
