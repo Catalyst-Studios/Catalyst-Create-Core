@@ -43,5 +43,4 @@ Not sure where to start? [Join our Discord](https://discord.gg/YCHPXeW9GZ) and w
 
 
 * Textures and Models
-  - (c) 2020, [Ridanisaurus Rid](https://github.com/Ridanisaurus/), (c) 2013 - 2020 AlgorithmX2 et al
   - [![License](https://img.shields.io/badge/License-CC%20BY--NC--SA%203.0-yellow.svg?style=flat-square)](https://creativecommons.org/licenses/by-nc-sa/3.0/)
