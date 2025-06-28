@@ -27,7 +27,7 @@
 
 By committing to this repository you hereby forfeit your rights to the code you have submitted, as it will become property of the organisation. 
 
-This project is All Rights Reserved unless explicitly stated per comment in said file, or codeblock. We highly appreciate any contributions. We would love to have you as a part of the Catalyst community!
+We highly appreciate any contributions. We would love to have you as a part of the Catalyst community!
 
 - Bug Report: If you encounter any issues while playing Create: Catalyst, please create a [bug report](https://github.com/Catalyst-Studios/Catalyst-Create-Core/issues/new).
 
