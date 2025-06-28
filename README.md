@@ -29,9 +29,9 @@ By committing to this repository you hereby forfeit your rights to the code you 
 
 This project is All Rights Reserved unless explicitly stated per comment in said file, or codeblock. We highly appreciate any contributions. We would love to have you as a part of the Catalyst community!
 
-- Bug Report: If you encounter any issues while playing Create: Catalyst, please create a [bug report](https://github.com/Catalyst-Studios/Create_Pack/issues/new).
+- Bug Report: If you encounter any issues while playing Create: Catalyst, please create a [bug report](https://github.com/Catalyst-Studios/Catalyst-Create-Core/issues/new).
 
-Not sure where to start? [Join our Discord](https://discord.gg/YCHPXeW9GZ) and we will help you get started!
+Not sure where to start? [Join our Discord](https://discord.gg/g8S6nGnbPy) and we will help you get started!
 
 
 
