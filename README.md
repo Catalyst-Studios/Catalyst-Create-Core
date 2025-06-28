@@ -1,4 +1,4 @@
-<h1 align="center">Create: Catalyst</h1> 
+<h1 align="center">Create: Catalyst Core</h1> 
 
 <p align="center">
   <i>Welcome to the Catalyst: Create Core GitHub. This repo is for our pack, Create: Catalyst!</i>
@@ -8,7 +8,7 @@
   <!--<a href="https://github.com/Catalyst-Studios/catalystguides/pulls">
     <img src="https://img.shields.io/github/issues-pr/Catalyst-Studios/Little-Bit-Large.svg">
   </a>-->
-  <a href="https://github.com/Catalyst-Studios/Catalyst-Graves/issues">
+  <a href="https://github.com/Catalyst-Studios/Catalyst-Catalyst-Core/issues">
     <img src="https://img.shields.io/github/issues/Catalyst-Studios/Create_Pack.svg">
   </a>
 </br>
