@@ -1,22 +1,15 @@
-package net.PatrioticCross.CatalystCreateCore;
+package net.PatrioticCross.catalyst_create_core;
 
+import net.PatrioticCross.catalyst_create_core.item.ModCreativeTabs;
+import net.PatrioticCross.catalyst_create_core.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.network.chat.Component;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -29,14 +22,10 @@ import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredItem;
-import net.neoforged.neoforge.registries.DeferredRegister;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
-@Mod(CatalystCreateCore.MOD_ID)
-public class CatalystCreateCore {
+@Mod(catalyst_create_core.MOD_ID)
+public class catalyst_create_core {
     // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "catalyst_create_core";
     // Directly reference a slf4j logger
@@ -44,9 +33,16 @@ public class CatalystCreateCore {
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
-    public CatalystCreateCore(IEventBus modEventBus, ModContainer modContainer) {
+    public catalyst_create_core(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
+
+        ModCreativeTabs.register(modEventBus);
+
+
+
+
+        ModItems.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in.
         // Note that this is necessary if and only if we want *this* class (ExampleMod) to respond directly to events.
@@ -75,6 +71,9 @@ public class CatalystCreateCore {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event){
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.INACTIVE_BLANK_PATTERN);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

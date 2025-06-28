@@ -1,0 +1,17 @@
+{
+  "item.catalyst_create_core.inactive_inscriber_calculation_press": "Inactive Inscriber Calculation Press",
+  "item.catalyst_create_core.inactive_inscriber_logic_press": "Inactive Inscriber Logic Press",
+  "item.catalyst_create_core.inactive_inscriber_engineering_press": "Inactive Inscriber Engineering Press",
+  "item.catalyst_create_core.inactive_inscriber_silicon_press": "Inactive Inscriber Silicon Press",
+  "item.catalyst_create_core.inactive_printed_calculation_circuit": "Inactive Printed Calculation Circuit",
+  "item.catalyst_create_core.inactive_blank_pattern": "Inactive Blank Pattern",
+  "item.catalyst_create_core.inactive_printed_engineering_circuit": "Inactive Printed Engineering Circuit",
+  "item.catalyst_create_core.inactive_printed_logic_circuit": "Inactive Printed Logic Circuit",
+  "item.catalyst_create_core.inactive_logic_processor": "Inactive Logic Processor",
+  "item.catalyst_create_core.inactive_calculation_processor": "Inactive Calculation Processor",
+  "item.catalyst_create_core.inactive_engineering_processor": "Inactive Engineering Processor",
+  "item.catalyst_create_core.inactive_energy_processor": "Inactive Energy Processor",
+  "item.catalyst_create_core.inactive_inscriber_energy_press": "Inactive Inscriber Energy Press",
+  "item.catalyst_create_core.inactive_printed_energy_processor": "Inactive Printed Energy Processor",
+  "itemgroup.catalyst_core_main": "Catalyst: Create Core"
+}

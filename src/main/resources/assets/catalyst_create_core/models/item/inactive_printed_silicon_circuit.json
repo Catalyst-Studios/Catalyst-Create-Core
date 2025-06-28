@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "catalyst_create_core:item/inactive_printed_silicon_circuit"
+  }
+}

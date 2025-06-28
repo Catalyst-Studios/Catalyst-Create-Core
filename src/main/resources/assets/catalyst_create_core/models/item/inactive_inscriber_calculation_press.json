@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "catalyst_create_core:item/inactive_inscriber_calculation_press"
+  }
+}

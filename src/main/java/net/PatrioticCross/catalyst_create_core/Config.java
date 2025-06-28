@@ -1,4 +1,4 @@
-package net.PatrioticCross.CatalystCreateCore;
+package net.PatrioticCross.catalyst_create_core;
 
 import java.util.List;
 
